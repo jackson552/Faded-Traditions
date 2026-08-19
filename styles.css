@@ -12,7 +12,7 @@
 }
 
 * { box-sizing: border-box; }
-html { width: 100%; max-width: 100%; overflow-x: hidden; scroll-behavior: smooth; }
+html { width: 100%; max-width: 100%; overflow-x: hidden; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { width: 100%; max-width: 100%; margin: 0; overflow-x: hidden; background: var(--paper); color: var(--ink); font-family: var(--body); -webkit-font-smoothing: antialiased; }
 body.menu-open { overflow: hidden; }
 img { display: block; width: 100%; }
@@ -184,6 +184,7 @@ blockquote { margin: 1.5rem 0 0; font-family: var(--serif); font-size: clamp(2.2
   .service-price { grid-column: 2; padding-top: .2rem; }
   .manifesto-image { min-height: 400px; }
   .about h2 { width: 100%; max-width: 100%; font-size: clamp(2rem, 9vw, 2.65rem); letter-spacing: -.075em; }
+  .about h2 .neighborhood-word { display: block; width: 100%; max-width: 100%; font-size: .84em; line-height: 1; letter-spacing: -.09em; white-space: nowrap; }
   .visit-grid { grid-template-columns: 1fr; }
   .map-card { min-height: 480px; }
   .footer-top { align-items: flex-start; flex-direction: column; }
